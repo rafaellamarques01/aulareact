@@ -1,3 +1,4 @@
+
 import Exemplo1 from "./componentes/exemplo1"
 import Exercicio2 from "./componentes/exercicio2"
 import Exercicio3 from "./componentes/exercicio3"
@@ -33,5 +34,3 @@ export default function App()
   )
 
 }
-
-    
