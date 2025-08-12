@@ -10,7 +10,7 @@ export default function MinasGerais()
             </p>
 
             <p>
-                <img src=""   />
+                <img src="/MG.png"   />
             </p>
 
             <p>

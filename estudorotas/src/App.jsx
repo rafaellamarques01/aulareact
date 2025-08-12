@@ -5,6 +5,10 @@ import RioJaneiro from "./Paginas/RioJaneiro";
 import MinasGerais from "./Paginas/MinasGerais";
 import EspiritoSanto from "./Paginas/EspiritoSanto";
 
+import Parana from "./Paginas/Parana";
+import RioGrandeSul from "./Paginas/RioGrandeSul";
+import SantaCatarina from "./Paginas/SantaCatarina";
+
 
 export default function App()
 {
@@ -16,6 +20,11 @@ export default function App()
             <Route path="/rj" element={<RioJaneiro />}  />
             <Route path="/mg" element={<MinasGerais  />}  />
             <Route path="/es" element={<EspiritoSanto  />}  />
+
+            <Route path="/pr" element={<Parana  />}   />
+            <Route path="/sc" element={<SantaCatarina />}  />
+            <Route path="/rs" element={<RioGrandeSul  />}   />
+
         </Routes>
         </BrowserRouter>
     );

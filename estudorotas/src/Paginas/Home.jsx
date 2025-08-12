@@ -20,6 +20,18 @@ export  default function Home()
             <ul>
                 <li><a href="/es">Espirito Santo</a></li>
             </ul>
+
+            <h3>Estado da Região Sul </h3>
+            <ul>
+                <li><a href="/pr">Paraná</a></li>
+                <li><a href="/sc">Santa Catarina</a></li>
+                <li><a href="/rs">Rio Grande do Sul</a></li>
+            </ul>
+
+            <h3>Estado da Região Norte</h3>
+             <li><a href="/ac">Acre</a></li>
+             <li><a href="/am">Amapá</a></li>
+            
         </div>
     )
 }
