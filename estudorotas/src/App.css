@@ -6,7 +6,7 @@ body
 
 h1
 {
-  background-color: rgb(96,0,0);
+  background-color: rgb(20, 206, 175);
   color : white;
 
   margin: 0;
@@ -17,7 +17,7 @@ h1
 
 a
 {
-  color : blue;
+  color : rgb(173, 93, 216);
 }
 
 img

@@ -22,7 +22,7 @@ import DistritoFederal from "./Paginas/DistritoFederal";
 import Goias from "./Paginas/Goias";
 import MatoGrosso from "/.Paginas/MatoGrosso";
 import MatoGrossoSul from "./Paginas/MatoGrossoSul";
-
+import "./App.css";
 
 
 
