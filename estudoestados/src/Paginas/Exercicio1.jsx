@@ -3,8 +3,7 @@ return(
     <div>
         <h1>Exercicio 1</h1>
         <div className="conteudo">
-            <h3>Exercicio 1</h3>
-
+           
     <form>
         <p>
             digite um numero qualquer <br />
@@ -12,7 +11,7 @@ return(
         </p>
        
        <p>
-        <input type="button" value="calcular" />
+        <input type="button" value="Exercicio1" />
        </p>
 
        <p> 

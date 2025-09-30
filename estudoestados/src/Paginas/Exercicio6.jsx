@@ -1,22 +1,22 @@
-export default function Exercicio4() {
+export default function Exercicio6() {
     return(
         <div>
-            <h1>Exercicio 4</h1>
+            <h1>Exercicio 6</h1>
             <div className="conteudo">
     
         <form>
             <p>
-                digite o valor da base: <br />
+                digite a quantidade: <br />
                 <input type="text" />
             </p>
            
             <p>
-                digite o valor da altura: <br />
+                digite o preço: <br />
                 <input type="text" />
             </p>
 
            <p>
-            <input type="button" value="Exercicio4" />
+            <input type="button" value="Exercicio6" />
            </p>
     
            <p> 
