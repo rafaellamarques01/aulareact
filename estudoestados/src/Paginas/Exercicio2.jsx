@@ -1,8 +1,10 @@
+import {useState} from "react"
+
 export default function Exercicio2()
 {
     
-    const[numero, setNumero] = useState(0);
-    const[resultado, setResultado] = useState(0);
+    const[numero, setNumero ] = useState(0);
+    const[resultado, setResultado ] = useState(0);
 
     
     function calcular()
@@ -30,19 +32,21 @@ export default function Exercicio2()
                 </p>
 
                 <p>
-                    <input type="button" value="Execicio2"  onClick ={calcular}/>
-                </p>
-
-                <p>
                     <b>resultado</b>
                     <br  />
                     fehrenheit é {numero} <br />
                     resultado em celsius é {resultado}
                 </p>
+
+                <p>
+                    <input type="button" value="Execicio2"  onClick ={calcular}/>
+                </p>
+
+                
                 <p>
                     <a href="/">Voltar</a>
                 </p>
             </form>
         </div>
-    )
+    );
 }
