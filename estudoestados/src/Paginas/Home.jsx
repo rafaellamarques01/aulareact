@@ -25,6 +25,11 @@ export default function Home() {
             <li><a href="/Exercicio8">Exercicio 8</a></li>
             <li><a href="/Exercicio9">Exercicio 9</a></li>
             <li><a href="/Exercicio10">Exercicio 10</a></li>
+
+            <ul>
+            <li><a href="/Avaliacao">Avaliacao</a></li>
+            </ul>
+
             
         </ul>
       </div>

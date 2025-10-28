@@ -13,6 +13,7 @@ import Exercicio7 from "./Paginas/Exercicio7";
 import Exercicio8 from "./Paginas/Exercicio8";
 import Exercicio9 from "./Paginas/Exercicio9";
 import Exercicio10 from "./Paginas/Exercicio10";
+import Avaliacao from "../Paginas/Avaliacao";
 
 
 import "./App.css";
@@ -35,9 +36,10 @@ export default function App() {
                 <Route path="/Exercicio8" element={<Exercicio8 />} />
                 <Route path="/Exercicio9" element={<Exercicio9 />} />
                 <Route path="/Exercicio10" element={<Exercicio10 />} />
+                <Route path="/Avaliacao" element={<Avaliacao  />} />
 
-
-            </Routes>
+                    
+                </Routes>
         </BrowserRouter>
     );
 }
